@@ -21,32 +21,5 @@ Uses the Spam Text Message 2017 Dataset from Kaggle, which contains:
 4️⃣ Evaluates performance using accuracy & classification reports.
 5️⃣ Predicts new messages (e.g., "Call 927363663 to receive your prize" → Spam ✅).
 
-📌 Quick Start
-Clone the repository and run:
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/spam-filter.git  
-cd spam-filter  
-python spam_filter.py  
-📊 Results
-Model	Accuracy
-MultinomialNB	96.50%
-ComplementNB	98.30%
-LinearSVC	99.19% ✅
-🔧 Requirements
-Python 3
-Scikit-Learn
-Pandas
-NumPy
-NLTK
-🎯 Example Usage
-python
-Copy
-Edit
-message = "Call 927363663 to receive your prize"
-result = pipeSVC.predict([message])
-print("Result:", result[0])  # Output: spam
-📌 Best Model: LinearSVC achieves 99.19% accuracy, making it the most reliable for spam detection! 🚀
 
